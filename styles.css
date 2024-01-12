@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+canvas {
+    border: 1px solid #000;
+
+}
+
+#colorPalette {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.color {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#brushSizeContainer {
+    margin-right: 20px;
+}
+
+#brushSize {
+    width: 100px;
+}
